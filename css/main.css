@@ -1,0 +1,275 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+button {
+	border: none;
+	background-color: #333;
+	color: #eee;
+	padding: 15px;
+	background-color: #2CA716;
+}
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+p {
+	font-size: 18px;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+.active {
+	border-bottom: 2px solid #fff;
+}
+
+/* my code starts here */
+header {
+	background-attachment: fixed;
+	background-image: url("../img/banner_bk.jpg");
+}
+nav {
+	background-color: rgba(23, 15 ,15 , 0.49);
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+	height: 50px;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 50px;
+	float: right;
+	margin-right: 20px;
+}
+nav ul li a {
+	color: #fff;
+}
+div.logo {
+	float: left;
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+div.logo  a {
+	line-height: 50px;
+	color: #fff;
+	text-decoration: none;
+}
+nav ul li a {
+	line-height: 50px;
+	display: inline-block;
+	text-decoration: none;
+
+}
+div#banner {
+	/* background-color: #777; */
+	height: 650px;
+	color: #fff;
+}
+div#banner div.inner {
+	max-width: 400px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 250px;
+}
+div#banner div.inner h1 {
+	width: 150px;
+	padding: 15px 0;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	margin: 0 auto;
+}
+div#banner div.inner p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+div#banner div.inner div.more {
+	margin-top: 150px;
+}
+
+section.green-section {
+	text-align: center;
+	background-color: #089db0;
+	padding: 100px 0;
+	color: #fff;
+}
+section.green-section div.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+section.green-section div.hr {
+	width: 100%;
+	height: 2px;
+	background-color: #0891A2;
+	margin: 20px 0;
+}
+section.green-section p.sub-heading {
+	margin-bottom: 30px;
+}
+section.green-section div.icon-group span.icon {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background-color: #09707D;
+	transform: rotate(45deg);
+	margin: 20px;
+	box-shadow: 0px 0px 8px 2px #AAA;
+}
+section.gray-section {
+	color: #fff;
+	background: #444;
+}
+section.gray-section div.article-preview {
+	font-size: 0;
+}
+section.gray-section div.article-preview:nth-child(odd) {
+	background-color: rgba(255, 255, 255, 0.15);
+}
+section.gray-section div.article-preview div.img-section {
+	width: 45%;
+}
+section.gray-section div.article-preview div.img-section img {
+	width: 100%;
+}
+section.gray-section div.article-preview div.text-section {
+	width: 55%;
+	position: relative;
+	top: 140px;
+	left: 50px;
+}
+div.text-section h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+div.text-section div.sub-heading {
+	font-size: 20px;
+}
+div.text-section p {
+	font-size: 18px;
+	margin: 20px 0;
+	letter-spacing: 1px;
+}
+section.gray-section div.article-preview > div {
+	float: left;
+} 
+section.gray-section div.article-preview:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.purple-section {
+	background-color: #754C9A;
+	color: #fff;
+	padding: 80px;
+}
+.purple-section .wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+.purple-section .heading-wrapper {
+	text-align: center;
+}
+.purple-section .heading-wrapper .hr {
+	height: 2px;
+	width: 60%;
+	margin: 20px auto;
+	background-color: #7B0E88;
+}
+.purple-section .card-group {
+	margin-top: 30px;
+	text-align: center;
+}
+.card-group .card {
+	float: left;
+	width: 50%;
+	min-height: 300px;
+	padding: 50px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.card-group .card:first-child {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.card-group .card:nth-child(2) {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+.card-group .card:nth-child(3) {
+	background-color: rgba(0, 0, 0, 0.15);
+}
+.card-group .card:nth-child(4) {
+	background-color: rgba(0, 0, 0, 0.15);
+}
+.card-group .card:nth-child(5) {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.card-group .card:nth-child(6) {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+.card-group .card:hover {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+footer {
+	background-color: #333;
+	min-height: 200px;
+	color: #fff;
+}
+ul.share-group {
+	display: block;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 50px;
+	text-align: center;
+}
+ul.share-group li {
+	display: inline-block;
+	padding: 10px;
+}
+div.copy {
+	text-align: center;
+}
